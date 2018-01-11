@@ -1,6 +1,6 @@
 //
 //  GameScene.swift
-//  CardAndBoardGames
+//  CardAndBoardGamesTV
 //
 //  Created by Eric Milhizer on 1/10/18.
 //  Copyright © 2018 Eric Milhizer. All rights reserved.

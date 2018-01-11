@@ -7,31 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F346D6220072ADF00C2002C /* BoardData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F346D6120072ADF00C2002C /* BoardData.plist */; };
+		0F346D6320072ADF00C2002C /* BoardData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F346D6120072ADF00C2002C /* BoardData.plist */; };
 		0F67D1872007193200B52CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67D1862007193200B52CEE /* AppDelegate.swift */; };
-		0F67D1892007193200B52CEE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D1882007193200B52CEE /* GameScene.sks */; };
-		0F67D18B2007193200B52CEE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D18A2007193200B52CEE /* Actions.sks */; };
-		0F67D18D2007193200B52CEE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67D18C2007193200B52CEE /* GameScene.swift */; };
-		0F67D18F2007193200B52CEE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67D18E2007193200B52CEE /* GameViewController.swift */; };
 		0F67D1922007193200B52CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D1902007193200B52CEE /* Main.storyboard */; };
 		0F67D1942007193200B52CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D1932007193200B52CEE /* Assets.xcassets */; };
 		0F67D1972007193200B52CEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D1952007193200B52CEE /* LaunchScreen.storyboard */; };
+		0F67D1A520071CDE00B52CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67D1A420071CDE00B52CEE /* AppDelegate.swift */; };
+		0F67D1A720071CDE00B52CEE /* GameSceneTV.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D1A620071CDE00B52CEE /* GameSceneTV.sks */; };
+		0F67D1AB20071CDE00B52CEE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67D1AA20071CDE00B52CEE /* GameScene.swift */; };
+		0F67D1AD20071CDE00B52CEE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67D1AC20071CDE00B52CEE /* GameViewController.swift */; };
+		0F67D1B020071CDE00B52CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D1AE20071CDE00B52CEE /* Main.storyboard */; };
+		0F67D1B220071CDE00B52CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D1B120071CDE00B52CEE /* Assets.xcassets */; };
+		0F67D1B820071F6000B52CEE /* GameScenePhone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D1B720071F6000B52CEE /* GameScenePhone.sks */; };
+		0F67D1BA20071F7100B52CEE /* GameScenePad.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D1B920071F7100B52CEE /* GameScenePad.sks */; };
+		0F67D1BB20071FB800B52CEE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67D1AA20071CDE00B52CEE /* GameScene.swift */; };
+		0F67D1BC20071FB800B52CEE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67D1AC20071CDE00B52CEE /* GameViewController.swift */; };
+		0F67D1BE20071FD900B52CEE /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D1BD20071FD900B52CEE /* Game.xcassets */; };
+		0F67D1BF20071FEC00B52CEE /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F67D1BD20071FD900B52CEE /* Game.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F346D6120072ADF00C2002C /* BoardData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BoardData.plist; sourceTree = "<group>"; };
 		0F67D1832007193200B52CEE /* CardAndBoardGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardAndBoardGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F67D1862007193200B52CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F67D1882007193200B52CEE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		0F67D18A2007193200B52CEE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		0F67D18C2007193200B52CEE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		0F67D18E2007193200B52CEE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		0F67D1912007193200B52CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F67D1932007193200B52CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F67D1962007193200B52CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F67D1982007193200B52CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F67D1A220071CDE00B52CEE /* CardAndBoardGamesTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardAndBoardGamesTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F67D1A420071CDE00B52CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F67D1A620071CDE00B52CEE /* GameSceneTV.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameSceneTV.sks; sourceTree = "<group>"; };
+		0F67D1AA20071CDE00B52CEE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0F67D1AC20071CDE00B52CEE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0F67D1AF20071CDE00B52CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F67D1B120071CDE00B52CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F67D1B320071CDE00B52CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F67D1B720071F6000B52CEE /* GameScenePhone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScenePhone.sks; sourceTree = "<group>"; };
+		0F67D1B920071F7100B52CEE /* GameScenePad.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScenePad.sks; sourceTree = "<group>"; };
+		0F67D1BD20071FD900B52CEE /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0F67D1802007193200B52CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F67D19F20071CDE00B52CEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,7 +69,11 @@
 		0F67D17A2007193200B52CEE = {
 			isa = PBXGroup;
 			children = (
+				0F67D1C3200720BA00B52CEE /* Code */,
+				0F67D1C02007201A00B52CEE /* SceneFiles */,
+				0F67D1BD20071FD900B52CEE /* Game.xcassets */,
 				0F67D1852007193200B52CEE /* CardAndBoardGames */,
+				0F67D1A320071CDE00B52CEE /* CardAndBoardGamesTV */,
 				0F67D1842007193200B52CEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				0F67D1832007193200B52CEE /* CardAndBoardGames.app */,
+				0F67D1A220071CDE00B52CEE /* CardAndBoardGamesTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,17 +90,60 @@
 		0F67D1852007193200B52CEE /* CardAndBoardGames */ = {
 			isa = PBXGroup;
 			children = (
-				0F67D1862007193200B52CEE /* AppDelegate.swift */,
-				0F67D1882007193200B52CEE /* GameScene.sks */,
-				0F67D18A2007193200B52CEE /* Actions.sks */,
-				0F67D18C2007193200B52CEE /* GameScene.swift */,
-				0F67D18E2007193200B52CEE /* GameViewController.swift */,
-				0F67D1902007193200B52CEE /* Main.storyboard */,
+				0F67D1C2200720A900B52CEE /* SupportingFiles */,
 				0F67D1932007193200B52CEE /* Assets.xcassets */,
+			);
+			path = CardAndBoardGames;
+			sourceTree = "<group>";
+		};
+		0F67D1A320071CDE00B52CEE /* CardAndBoardGamesTV */ = {
+			isa = PBXGroup;
+			children = (
+				0F67D1C12007206B00B52CEE /* SupportingFiles */,
+				0F67D1B120071CDE00B52CEE /* Assets.xcassets */,
+			);
+			path = CardAndBoardGamesTV;
+			sourceTree = "<group>";
+		};
+		0F67D1C02007201A00B52CEE /* SceneFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0F67D1A620071CDE00B52CEE /* GameSceneTV.sks */,
+				0F67D1B720071F6000B52CEE /* GameScenePhone.sks */,
+				0F67D1B920071F7100B52CEE /* GameScenePad.sks */,
+			);
+			path = SceneFiles;
+			sourceTree = "<group>";
+		};
+		0F67D1C12007206B00B52CEE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0F67D1A420071CDE00B52CEE /* AppDelegate.swift */,
+				0F67D1AE20071CDE00B52CEE /* Main.storyboard */,
+				0F67D1B320071CDE00B52CEE /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0F67D1C2200720A900B52CEE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0F67D1862007193200B52CEE /* AppDelegate.swift */,
+				0F67D1902007193200B52CEE /* Main.storyboard */,
 				0F67D1952007193200B52CEE /* LaunchScreen.storyboard */,
 				0F67D1982007193200B52CEE /* Info.plist */,
 			);
-			path = CardAndBoardGames;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0F67D1C3200720BA00B52CEE /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				0F67D1AC20071CDE00B52CEE /* GameViewController.swift */,
+				0F67D1AA20071CDE00B52CEE /* GameScene.swift */,
+				0F346D6120072ADF00C2002C /* BoardData.plist */,
+			);
+			path = Code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +166,23 @@
 			productReference = 0F67D1832007193200B52CEE /* CardAndBoardGames.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0F67D1A120071CDE00B52CEE /* CardAndBoardGamesTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F67D1B420071CDE00B52CEE /* Build configuration list for PBXNativeTarget "CardAndBoardGamesTV" */;
+			buildPhases = (
+				0F67D19E20071CDE00B52CEE /* Sources */,
+				0F67D19F20071CDE00B52CEE /* Frameworks */,
+				0F67D1A020071CDE00B52CEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardAndBoardGamesTV;
+			productName = CardAndBoardGamesTV;
+			productReference = 0F67D1A220071CDE00B52CEE /* CardAndBoardGamesTV.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -104,6 +194,10 @@
 				ORGANIZATIONNAME = "Eric Milhizer";
 				TargetAttributes = {
 					0F67D1822007193200B52CEE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0F67D1A120071CDE00B52CEE = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -123,6 +217,7 @@
 			projectRoot = "";
 			targets = (
 				0F67D1822007193200B52CEE /* CardAndBoardGames */,
+				0F67D1A120071CDE00B52CEE /* CardAndBoardGamesTV */,
 			);
 		};
 /* End PBXProject section */
@@ -132,11 +227,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F67D1BF20071FEC00B52CEE /* Game.xcassets in Resources */,
+				0F346D6220072ADF00C2002C /* BoardData.plist in Resources */,
 				0F67D1922007193200B52CEE /* Main.storyboard in Resources */,
-				0F67D1892007193200B52CEE /* GameScene.sks in Resources */,
 				0F67D1942007193200B52CEE /* Assets.xcassets in Resources */,
 				0F67D1972007193200B52CEE /* LaunchScreen.storyboard in Resources */,
-				0F67D18B2007193200B52CEE /* Actions.sks in Resources */,
+				0F67D1BA20071F7100B52CEE /* GameScenePad.sks in Resources */,
+				0F67D1B820071F6000B52CEE /* GameScenePhone.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F67D1A020071CDE00B52CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F346D6320072ADF00C2002C /* BoardData.plist in Resources */,
+				0F67D1B020071CDE00B52CEE /* Main.storyboard in Resources */,
+				0F67D1A720071CDE00B52CEE /* GameSceneTV.sks in Resources */,
+				0F67D1B220071CDE00B52CEE /* Assets.xcassets in Resources */,
+				0F67D1BE20071FD900B52CEE /* Game.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +256,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F67D18D2007193200B52CEE /* GameScene.swift in Sources */,
-				0F67D18F2007193200B52CEE /* GameViewController.swift in Sources */,
+				0F67D1BB20071FB800B52CEE /* GameScene.swift in Sources */,
+				0F67D1BC20071FB800B52CEE /* GameViewController.swift in Sources */,
 				0F67D1872007193200B52CEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F67D19E20071CDE00B52CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F67D1AB20071CDE00B52CEE /* GameScene.swift in Sources */,
+				0F67D1AD20071CDE00B52CEE /* GameViewController.swift in Sources */,
+				0F67D1A520071CDE00B52CEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +289,14 @@
 				0F67D1962007193200B52CEE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0F67D1AE20071CDE00B52CEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F67D1AF20071CDE00B52CEE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,7 +415,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XMA2J8CD9;
-				INFOPLIST_FILE = CardAndBoardGames/Info.plist;
+				INFOPLIST_FILE = CardAndBoardGames/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.milhizer.CardAndBoardGames;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,12 +430,48 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XMA2J8CD9;
-				INFOPLIST_FILE = CardAndBoardGames/Info.plist;
+				INFOPLIST_FILE = CardAndBoardGames/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.milhizer.CardAndBoardGames;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F67D1B520071CDE00B52CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XMA2J8CD9;
+				INFOPLIST_FILE = CardAndBoardGamesTV/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milhizer.CardAndBoardGamesTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		0F67D1B620071CDE00B52CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XMA2J8CD9;
+				INFOPLIST_FILE = CardAndBoardGamesTV/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milhizer.CardAndBoardGamesTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
 			};
 			name = Release;
 		};
@@ -329,6 +492,15 @@
 			buildConfigurations = (
 				0F67D19C2007193200B52CEE /* Debug */,
 				0F67D19D2007193200B52CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F67D1B420071CDE00B52CEE /* Build configuration list for PBXNativeTarget "CardAndBoardGamesTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F67D1B520071CDE00B52CEE /* Debug */,
+				0F67D1B620071CDE00B52CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
