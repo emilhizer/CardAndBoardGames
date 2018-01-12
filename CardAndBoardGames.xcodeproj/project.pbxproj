@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F301D71200846A900D1FACA /* GameScene+PropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F301D70200846A900D1FACA /* GameScene+PropertyList.swift */; };
+		0F301D72200846A900D1FACA /* GameScene+PropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F301D70200846A900D1FACA /* GameScene+PropertyList.swift */; };
+		0F301D742008475100D1FACA /* GameScene+Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F301D732008475100D1FACA /* GameScene+Update.swift */; };
+		0F301D752008475100D1FACA /* GameScene+Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F301D732008475100D1FACA /* GameScene+Update.swift */; };
+		0F301D772008478B00D1FACA /* GameScene+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F301D762008478B00D1FACA /* GameScene+Touches.swift */; };
+		0F301D782008478B00D1FACA /* GameScene+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F301D762008478B00D1FACA /* GameScene+Touches.swift */; };
 		0F346D6220072ADF00C2002C /* BoardData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F346D6120072ADF00C2002C /* BoardData.plist */; };
 		0F346D6320072ADF00C2002C /* BoardData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F346D6120072ADF00C2002C /* BoardData.plist */; };
 		0F67D1872007193200B52CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F67D1862007193200B52CEE /* AppDelegate.swift */; };
@@ -28,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F301D70200846A900D1FACA /* GameScene+PropertyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+PropertyList.swift"; sourceTree = "<group>"; };
+		0F301D732008475100D1FACA /* GameScene+Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+Update.swift"; sourceTree = "<group>"; };
+		0F301D762008478B00D1FACA /* GameScene+Touches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+Touches.swift"; sourceTree = "<group>"; };
 		0F346D6120072ADF00C2002C /* BoardData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BoardData.plist; sourceTree = "<group>"; };
 		0F67D1832007193200B52CEE /* CardAndBoardGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardAndBoardGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F67D1862007193200B52CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +150,9 @@
 			children = (
 				0F67D1AC20071CDE00B52CEE /* GameViewController.swift */,
 				0F67D1AA20071CDE00B52CEE /* GameScene.swift */,
+				0F301D70200846A900D1FACA /* GameScene+PropertyList.swift */,
+				0F301D762008478B00D1FACA /* GameScene+Touches.swift */,
+				0F301D732008475100D1FACA /* GameScene+Update.swift */,
 				0F346D6120072ADF00C2002C /* BoardData.plist */,
 			);
 			path = Code;
@@ -256,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F301D772008478B00D1FACA /* GameScene+Touches.swift in Sources */,
 				0F67D1BB20071FB800B52CEE /* GameScene.swift in Sources */,
 				0F67D1BC20071FB800B52CEE /* GameViewController.swift in Sources */,
 				0F67D1872007193200B52CEE /* AppDelegate.swift in Sources */,
+				0F301D742008475100D1FACA /* GameScene+Update.swift in Sources */,
+				0F301D71200846A900D1FACA /* GameScene+PropertyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F301D782008478B00D1FACA /* GameScene+Touches.swift in Sources */,
 				0F67D1AB20071CDE00B52CEE /* GameScene.swift in Sources */,
 				0F67D1AD20071CDE00B52CEE /* GameViewController.swift in Sources */,
 				0F67D1A520071CDE00B52CEE /* AppDelegate.swift in Sources */,
+				0F301D752008475100D1FACA /* GameScene+Update.swift in Sources */,
+				0F301D72200846A900D1FACA /* GameScene+PropertyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
